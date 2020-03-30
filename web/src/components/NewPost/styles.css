@@ -1,0 +1,59 @@
+.timeline-container form {
+    display: flex;
+    width: 90%;
+    min-width: 280px;
+    max-width: 650px;
+    flex-direction: column;
+}
+
+.timeline-container form button,
+.timeline-container form textarea {
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.timeline-container form textarea {
+    height: 86px;
+    color: #6A6A6A;
+    border: #BCBCBC solid 1px;
+    padding: 10px;
+    transition: all 1s;
+    resize: none;
+}
+
+.timeline-container form textarea:focus {
+    outline: none !important;
+    border: 1px solid #00ACEE;
+    box-shadow: 0 0 2px #00ACEE;
+    caret-color: #00ACEE;
+}
+
+.new-post-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-post-info-container p {
+    font-weight: 300;
+    margin: 5px;
+}
+
+.new-post-info-container button {
+    background-color: #00ACEE;
+    color: white;
+    font-weight: bold;
+    min-width: 80px;
+    max-width: 80px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    transition: all .5s;
+}
+
+.new-post-info-container button:hover {
+    cursor: pointer;
+    opacity: .6;
+}
